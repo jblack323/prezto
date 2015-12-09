@@ -110,6 +110,7 @@ alias glg='git log --topo-order --all --graph --pretty=format:"${_git_log_onelin
 alias glb='git log --topo-order --pretty=format:"${_git_log_brief_format}"'
 alias glc='git shortlog --summary --numbered'
 alias glS='git log --show-signature'
+alias gln='git log --topo-order --name-only --pretty=format:"${_git_log_brief_format}"'
 
 # Merge (m)
 alias gm='git merge'
